@@ -2,6 +2,7 @@ package com.example.constraintlayout20.barrier
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.constraintlayout20.R
 
 class BarrierActivity : AppCompatActivity() {
 
