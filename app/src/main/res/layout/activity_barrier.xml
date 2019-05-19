@@ -5,5 +5,28 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent"
 	tools:context=".barrier.BarrierActivity">
+	
+	<Button
+		android:id="@+id/button"
+		android:layout_width="100dp"
+		android:layout_height="55dp"
+		android:text="Button"
+		tools:layout_editor_absoluteX="127dp"
+		tools:layout_editor_absoluteY="94dp" />
+	
+	<Button
+		android:id="@+id/button2"
+		android:layout_width="201dp"
+		android:layout_height="50dp"
+		android:text="Button"
+		tools:layout_editor_absoluteX="176dp"
+		tools:layout_editor_absoluteY="161dp" />
+	
+	<androidx.constraintlayout.widget.Barrier
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		app:barrierDirection="left"
+		app:constraint_referenced_ids="button,button2" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
