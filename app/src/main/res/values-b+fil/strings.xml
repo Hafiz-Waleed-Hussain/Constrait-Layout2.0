@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="login">mag log in</string>
+	<string name="sign_up">pag-signup</string>
+	<string name="forgot_password">Nakalimutan ang password</string>
+
+</resources>
